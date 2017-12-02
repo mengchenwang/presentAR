@@ -1,9 +1,6 @@
+![logo](app/assets/images/logo_black.png)
 <h1 align="center">
-  <br>
-  ![PresentAR](app/assets/images/logo_black.png)
-  <br>
   PresentAR (Website)
-  <br>
 </h1>
 
 <h4 align="center">The website component of PresentAR.</h4>
