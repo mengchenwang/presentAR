@@ -1,4 +1,7 @@
+<div align="center">
 ![logo](app/assets/images/logo_black.png)
+</div>  
+  
 <h1 align="center">
   PresentAR (Website)
 </h1>
