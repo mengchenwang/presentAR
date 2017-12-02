@@ -1,20 +1,38 @@
-PresentAR
-==========
-The website component of a presentation aid for AR.
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/mengchenwang/presentAR/app/assets/images/logo_black.png" alt="PresentAR" width="200">
+  <br>
+  PresentAR (Website)
+  <br>
+</h1>
 
-Continuous Deployment via Heroku
+<h4 align="center">AThe website component of PresentAR.</h4>
+
+![screenshot](https://raw.githubusercontent.com/mengchenwang/presentAR/app/assets/images/screenshot_home.png)
+
+What is PresentAR?
 ----
-https://presentar.herokuapp.com/
+#### An augmented reality presentation aid.   
+PresentAR allows you to harness the power of AR, and display 3D models which can be manipulated in real-time, wherever you are. 3D models and their associated Image Targets are uploaded to [the companion website](https://presentar.herokuapp.com/) and can then be accessed through this client app. 
+![screenshot](https://raw.githubusercontent.com/mengchenwang/presentAR/app/assets/images/screenshot_models.png)
+The Image Targets are recognised using Vuforia Cloud Recognition and the 3D models are downloaded on-the-fly in the app using the AWS link stored in the image target metadata. This allows the user to add new models and image targets without having to interact directly with either Unity or the Vuforia Developer Portal.
+![screenshot](https://raw.githubusercontent.com/mengchenwang/presentAR/app/assets/images/chuck_ar.png)
+
+The repository for the companion mobile App is available [here](https://github.com/mengchenwang/presentAR-client).
 
 Technologies used
 ----
-- Ruby on Rails
+#### Build:
+- Ruby on Rails, HTML
+#### Database:
 - PostgreSQL
+#### Styling:
+- Bootstrap and SCSS
 
 How to set up the application
 ----
 ```
-$ git clone https://github.com/comatoastuk/presentAR.git
+$ git clone https://github.com/mengchenwang/presentAR.git
 $ cd presentAR
 $ bundle
 $ rake db:setup
@@ -33,3 +51,7 @@ How to run tests
 $ cd presentAR
 $ rspec
 ```
+
+Authors
+----
+Zoë Hopkins, Luan van Pletsen, James Stubbs, Mengchen Wang
