@@ -1,8 +1,8 @@
 
-![logo](app/assets/images/logo_black.png)
-
-  
 <h1 align="center">
+  <br>
+  <img src="https://github.com/mengchenwang/presentAR/blob/master/app/assets/images/logo_black.png" alt="PresentAR" width="200">
+  <br>
   PresentAR (Website)
 </h1>
 
